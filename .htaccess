@@ -1,0 +1,12 @@
+#bat che do rewrite
+RewriteEngine On
+
+RewriteRule ^home$ index.php
+
+RewriteRule ^cart$ index.php?controller=cart
+
+RewriteRule ^contact$ index.php?controller=contact
+
+RewriteRule ^brandsList/(.*)$ index.php?controller=brandsList&id=$1
+
+RewriteRule ^detail/(.*)$ index.php?controller=Detail&id=$1

@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Ferro-Rosso;
+  src: url('../Fonts/FerroRosso.ttf');
+}
+@font-face {
+  font-family: Gilroy-Extrabold;
+  src: url('../Fonts/gilroy-extrabold.otf');
+}
+@font-face {
+  font-family: Gilroy-Light;
+  src: url('../Fonts/gilroy-light.otf');
+}
+.information {
+  list-style-type: none;
+}
+.name {
+  font-family: Gilroy-Light;
+  font-weight: 600;
+}
+.price {
+  font-family: Gilroy-Light;
+  font-weight: 700;
+}
+.inf_title {
+  font-family: Gilroy-Light;
+  font-size: 20px;
+  font-weight: 200;
+}
+.inf_content {
+  font-family: Gilroy-Light;
+  font-size: 25px;
+  font-weight: 500;
+}
+.star {
+  color: rgb(255, 193, 32);
+}
+.btn_buy, .btn_cart {
+  border-radius: 0rem;
+}
+.btn_description {
+  font-family: Gilroy-Light;
+  font-weight: 400;
+  font-size: 30px;
+  background-color: white;
+}
+.btn_description:focus {
+  outline: none;
+  background-color: white;
+}
+.lst_spec p {
+  font-family: Gilroy-Light;
+  font-size: 20px;
+}

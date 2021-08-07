@@ -1,0 +1,274 @@
+@font-face {
+  font-family: Ferro-Rosso;
+  src: url('../Fonts/FerroRosso.ttf');
+}
+@font-face {
+  font-family: Gilroy-Extrabold;
+  src: url('../Fonts/gilroy-extrabold.otf');
+}
+@font-face {
+  font-family: Gilroy-Light;
+  src: url('../Fonts/gilroy-light.otf');
+}
+body {
+  background-color: red;
+  margin: 0;
+  padding: 0;
+}
+/*
+ *PANEL
+*/
+.panel {
+  width: 100%;
+  display: flex;
+}
+/*panel content*/
+.panel_content {
+  width: calc(100% - 300px);
+  transition: 0.5s;
+}
+.panel_listCars {
+  background-color: #ffffff;
+}
+.list_title {
+  padding-top: 20px;
+}
+.list_title h1 {
+  font-family: Gilroy-Extrabold;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.list_title a.list_title_seemore {
+  font-family: Gilroy-Light;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.list_title a i {
+  font-size: 15px;
+  font-weight: 400;
+}
+.list_title a:hover {
+  color: black;
+  border-bottom: 2px solid black;
+} 
+
+.One:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.One .card-body {
+  background-color: white;
+}
+a.btn-primary, button.plus {
+  background-color: darkgray;
+  border: 1px solid darkgray;
+}
+a.btn-primary:hover, button.plus:hover {
+  background-color: #808080;
+  border: 1px solid black;
+}
+/*panel news*/
+.panel_news {
+  border-top: 1px solid darkgray;
+}
+.panel_news a.news_seemore {
+  text-align: center;
+  font-family: Gilroy-Light;
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+}
+.panel_news .py-3:hover {
+  background-color: #e6e6e6;
+}
+.panel_news a {
+  color: black;
+  text-decoration: none;
+}
+.panel_news a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/*panel sidebar*/
+.panel_sidebar {
+  width: 300px;
+  min-height: 100vh;
+  background-color: gray;
+  position: fixed;
+  right: 0;
+  transition: 0.5s;
+}
+.panel_sidebar .card, .panel_sidebar ul li{ 
+  background-color: gray; 
+  color: white;
+  font-family: Gilroy-Light;
+  font-weight: 600;
+}
+.panel_sidebar ul li a {
+  text-decoration:none;
+  color: white;
+}
+.panel_sidebar ul li:hover { 
+  background-color: darkgray;
+  color: black; 
+}
+.end {
+  background-color: darkgray;
+}
+.footer {
+  justify-content: space-between;
+}
+.footer ul {
+  list-style-type: none;
+}
+.footer ul li h1 {
+  font-family: Gilroy-Extrabold;
+  font-size: 25px;
+  color: white;
+}
+.footer ul li a {
+  font-family: Gilroy-Light;
+  text-decoration: none;
+  color: white;
+}
+
+
+@media only screen and (max-width:768px) {
+  header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #Header_logo {
+    width: 100%;
+    text-align: center;
+  }
+  ul.Header_nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  i.Header_btnsidebar {
+    text-align: center;
+  }
+}
+.un_active {
+  width: 0;
+  min-width: 0; 
+}
+.active_content {
+  width: 100%;
+}
+
+/***********************************************************/
+/*HOME VIEW*/
+.btn_slide:focus {
+  box-shadow: 0 0 0 0;
+} 
+.btn_slide {
+  z-index: 0;  
+}
+.btn_slide:focus {
+  box-shadow: 0 0 0 0;
+} 
+.card_price {
+  font-family: Gilroy-Light;
+  font-size: 20px;
+}
+.btn_detail {
+  border-radius: 0rem;
+}
+.gender_title {
+  font-size: 30px;
+  font-family: Gilroy-Light;
+}
+.gender_title a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Gilroy-Light;
+}
+.gender_title a:hover {
+  color: white;
+  text-decoration: underline;
+}
+/***********************************************************/
+/*LIST WATCHES*/
+button.Range {
+  border: none;
+  font-family: Gilroy-Light;
+  font-weight: 600;
+}
+button.Range:focus {
+  box-shadow: none;
+}
+.ad_brand_title {
+  font-size: 25px;
+}
+.ad_brand {
+  text-decoration: none;
+  color: black;
+  font-family: Gilroy-Light;
+}
+.ad_brandtitle {
+  font-size: 20px;
+}
+.ad_brandincon {
+  font-weight: 400;
+}
+.ad_brand:hover {
+  color: gray;
+}
+/***********************************************************/
+/*NEWS*/
+.title_news {
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+}
+.cate_select select {
+  font-family: Gilroy-Light;
+  border-radius: 0;
+}
+.cate_select select:focus {
+  box-shadow: none;
+}
+/***********************************************************/
+/*ABOUT US*/
+.about_us {
+  font-family: Gilroy-Light;
+}
+.about_us h1{
+  font-weight: 600;
+}
+/***********************************************************/
+/*News*/
+.tile_news {
+  font-family: Gilroy-Extrabold;
+  font-weight: 400;
+}
+.direct_news a {
+  font-family: Gilroy-Light;
+  font-size: 20px;
+  color: #999;
+  text-decoration: none;
+}
+.direct_news i {
+  font-size: 15px;
+  color: #999;
+}
+.infor_news {
+  font-family: Gilroy-Light;
+  color: #777;
+}
+.title_news1 {
+  font-family: Gilroy-Light;
+  font-weight: 500;
+}

@@ -1,0 +1,76 @@
+body {
+  background-color: pink;
+  margin: 0;
+}
+ul {
+  top: 0;  
+  left: 0;
+  position: fixed; 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkgray;
+  width: 100%;
+}
+li {
+  float: left;
+}
+li a {
+  width: 70px;  
+  display: block;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+li a:hover {
+  background-color: black;
+}
+
+div.First { 
+  background-image: url('Images\\FerrariFirst.jpg'); 
+  width: 100%;
+  height: 730px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h1First {
+  margin-top: 20px;  
+  padding-top: 90px;
+  padding-left: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Anton';
+  font-weight: lighter;
+}
+.h1First1 {
+  margin-top: -40px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Alfa Slab One';
+  font-weight: lighter;
+}
+.aFirst {
+  margin-left: 750px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;  
+  border-radius: 19px;
+  border-style: solid;
+  border-color: black;
+  font-size: 20px;  
+  font-weight: bold;
+}
+
+.aFirst:hover {
+  color: red; 
+  border-color: red;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}

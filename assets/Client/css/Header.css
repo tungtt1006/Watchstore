@@ -1,0 +1,268 @@
+/*.Header {
+  background-color: darkgray;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+}
+#Header_logo {
+  font-family: Ferro-Rosso;
+  font-size: 45px;
+  font-weight: 500;
+  padding: 15px 0;
+  margin-left: 70px;
+}
+#Header_logo a {
+  color: white;
+  text-decoration: none;
+}
+
+ul.Header_nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 24px 0 0 0;
+  display: flex;
+  align-items: center;
+}
+ul.Header_nav li {
+  position: relative;
+}
+div.sub_menu {
+  background-color: white;
+  position: absolute;
+  top:25px;
+  left:0px;
+  width: 200%;
+  display: none;
+  border: 1px solid darkgray;
+}
+.Header_nav li:hover div.sub_menu {
+  display: flex;
+}
+ul.sub_list {
+  margin: 0 0;
+  list-style-type: none;
+}
+ul.Header_nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Gilroy-Light;
+  font-weight: 900;
+  margin-right: 5px;
+}
+ul.Header_nav li i {
+  color: white;
+  font-weight: 400;
+  margin-right: 20px;
+  font-size: 15px;
+}
+ul.sub_list li a {
+  font-family: Gilroy-Light;
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+}
+ul.sub_list li:hover , ul.sub_list li:hover a {
+  background-color: lightgray;
+  color: white;
+}
+.Header_btnsidebar {
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+  padding-left: 120px;
+  padding-top: 20px;
+}
+#key {
+  outline:none;
+  width: 100%;
+  padding:5px;
+  background-color:darkgray;
+  border: none;
+  border-bottom:1px solid white;
+}
+
+::placeholder { 
+    color: white;
+}
+.btn_button {
+  background-color: darkgray;
+  border:none;
+  position:absolute;
+  top:14px;
+  right: 0px;
+  padding: 6px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.btn_button:focus {
+  outline: none;
+}
+.smart_search {
+  width: 400px;
+  background-color: white;
+  position: absolute;
+  top: 54px;
+  right: -100px;
+  border: 1px solid lightgray;
+  max-height: 300px; 
+  overflow: scroll;
+  display: none;
+  overflow-x: hidden;
+}
+.smart_search ul {
+  list-style-type: none;
+  padding: 0;
+}
+.smart_search ul li {
+  padding: 10px 0;
+}
+.smart_search ul li:hover {
+  background-color: lightgray;
+}
+.smart_search ul li a {
+  color: black;
+  text-decoration: none;
+}   */
+
+
+.Header {
+  background-color: darkgray;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+}
+#Header_logo {
+  font-family: Ferro-Rosso;
+  font-size: 45px;
+  font-weight: 500;
+  padding: 15px 0;
+  margin-left: 70px;
+}
+#Header_logo a {
+  color: white;
+  text-decoration: none;
+}
+
+ul.Header_nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 24px 0 0 0;
+  display: flex;
+  align-items: center;
+}
+ul.Header_nav li {
+  position: relative;
+}
+div.sub_menu {
+  background-color: white;
+  position: absolute;
+  top:25px;
+  left:0px;
+  width: 600px;
+  display: none;
+  border: 1px solid darkgray;
+}
+.Header_nav li:hover div.sub_menu {
+  display: block;
+}
+ul.sub_list {
+  margin: 0 0;
+  list-style-type: none;
+}
+ul.Header_nav li a.cate_title {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Gilroy-Light;
+  font-weight: 900;
+  margin-right: 5px;
+}
+ul.Header_nav li i {
+  color: white;
+  font-weight: 400;
+  margin-right: 20px;
+  font-size: 15px;
+}
+ul.sub_list li a {
+  font-family: Gilroy-Light;
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+}
+ul.sub_list li:hover , ul.sub_list li:hover a {
+  background-color: lightgray;
+  color: white;
+}
+.name_brand {
+  text-decoration: none;
+}
+.list_name_watch  {
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+}
+.list_name_watch:hover  {
+  color: black;
+  border-bottom: 1px solid lightgray;
+}
+.Header_btnsidebar {
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+  padding-left: 120px;
+  padding-top: 20px;
+}
+#key {
+  outline:none;
+  width: 100%;
+  padding:5px;
+  background-color:darkgray;
+  border: none;
+  border-bottom:1px solid white;
+}
+
+::placeholder { 
+    color: white;
+}
+.btn_button {
+  background-color: darkgray;
+  border:none;
+  position:absolute;
+  top:14px;
+  right: 0px;
+  padding: 6px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.btn_button:focus {
+  outline: none;
+}
+.smart_search {
+  width: 400px;
+  background-color: white;
+  position: absolute;
+  top: 54px;
+  right: -100px;
+  border: 1px solid lightgray;
+  max-height: 300px; 
+  overflow: scroll;
+  display: none;
+  overflow-x: hidden;
+}
+.smart_search ul {
+  list-style-type: none;
+  padding: 0;
+}
+.smart_search ul li {
+  padding: 10px 0;
+}
+.smart_search ul li:hover {
+  background-color: lightgray;
+}
+.smart_search ul li a {
+  color: black;
+  text-decoration: none;
+}   

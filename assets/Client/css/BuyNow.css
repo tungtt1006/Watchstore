@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Gilroy-Extrabold;
+  src: url('../Fonts/gilroy-extrabold.otf');
+}
+@font-face {
+  font-family: Gilroy-Light;
+  src: url('../Fonts/gilroy-light.otf');
+}
+/*
+ * LEFT
+ */
+#Name_car {
+  font-family: Gilroy-Light;
+  font-weight: 600;
+}
+.panel_content .main_img {
+  width: 100%;
+}
+/*
+ * RIGHT
+ */
+.Exterior_options, .Interior_options {
+  width: 100%;
+}
+.title_option {
+  font-family: Gilroy-Light;
+  font-weight: 600;
+  margin: 0;
+}  
+ /*Exterior*/
+}
+.Exterior_options a {
+  padding: 20px;
+}
+.Exterior_options a:nth-child(1) {
+  background-color: #D40000;
+}
+.Exterior_options a:nth-child(2) {
+  border: 1px solid darkgray;
+}
+.Exterior_options a:nth-child(3) {
+  background-color:  #fafa37;
+}
+.Exterior_options a:nth-child(4) {
+  background-color: #080808;
+}
+/*Interior*/
+.Interior_options a {
+  width: 45%;
+}
+/*Custom*/
+.custom_options {
+  width: 50%;
+}
+.custom_options a {
+  padding: 20px 15px;
+
+}
+
+
+.description {
+  font-family: Gilroy-Light;
+  font-weight: bold;
+}
+.stock {
+  color: green;
+}
+button.buy {
+	background-color: darkgray;
+	border: 1px solid darkgray;
+}
+table.table {
+	border-top: 1px solid black;
+}
+.table_title {
+    font-family: Gilroy-Extrabold;
+}
